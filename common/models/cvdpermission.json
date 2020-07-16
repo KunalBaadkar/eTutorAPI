@@ -1,0 +1,31 @@
+{
+    "name": "cvdpermission",
+    "plural": "cvdpermissions",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "FCvdroleId": {
+            "type": "number",
+            "required": true
+        },
+        "FCvduserId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

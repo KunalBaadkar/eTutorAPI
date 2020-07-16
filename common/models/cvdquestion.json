@@ -1,0 +1,27 @@
+{
+    "name": "cvdquestion",
+    "plural": "cvdquestions",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "FCvdcourseId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

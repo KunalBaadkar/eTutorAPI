@@ -1,0 +1,36 @@
+
+{
+    "name": "cvdcoursestatus",
+    "plural": "cvdcoursestatuss",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "FCvduserId": {
+            "type": "number",
+            "required": true
+        },
+        "FCvdstatusId": {
+            "type": "number",
+            "required": true
+        },
+        "FCvdcourseId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

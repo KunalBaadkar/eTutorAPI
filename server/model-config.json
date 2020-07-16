@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "quiz": {
+    "dataSource": "db",
+    "public": true
+  },
+  "question": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdrole": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdstatus": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdscreen": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdtrainingtype": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdfaq": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdsubscription": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdoption": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdquestion": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdclass": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdlevel": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdcourse": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdtableofcontent": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvduser": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdpermission": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvddiscussion": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdfeedback": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdcoursestatus": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdlearncheck": {
+    "dataSource": "db",
+    "public": true
+  },
+  "cvdusersubscription": {
+    "dataSource": "db",
+    "public": true
+  }
+
+  
+}

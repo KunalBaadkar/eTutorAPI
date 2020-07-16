@@ -1,0 +1,39 @@
+{
+    "name": "cvdcourse",
+    "plural": "cvdcourses",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "Description": {
+            "type": "string",
+            "required": true
+        },
+        "DurationHr": {
+            "type": "number",
+            "required": true
+        },
+        "DurationMin": {
+            "type": "number",
+            "required": true
+        },
+        "FCvdclassId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

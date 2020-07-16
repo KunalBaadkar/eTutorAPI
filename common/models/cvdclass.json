@@ -1,0 +1,27 @@
+{
+    "name": "cvdclass",
+    "plural": "cvdclasss",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "FCvdlevelId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

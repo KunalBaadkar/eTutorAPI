@@ -1,0 +1,47 @@
+{
+    "name": "cvdlearncheck",
+    "plural": "cvdlearnchecks",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "number",
+            "required": true
+        },
+        "Name": {
+            "type": "string",
+            "required": true
+        },
+        "Status": {
+            "type": "string",
+            "required": true
+        },
+        "Totalques": {
+            "type": "number",
+            "required": true
+        },
+        "CorrectAns": {
+            "type": "number",
+            "required": true
+        },
+        "FCvduserId": {
+            "type": "number",
+            "required": true
+        },
+        "FCvdquestionId": {
+            "type": "number",
+            "required": true
+        },
+        "FCvdcourseId": {
+            "type": "number",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}
